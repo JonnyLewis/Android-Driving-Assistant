@@ -2,6 +2,10 @@ version: 2.1
 
 orbs:
  android: circleci/android@0.2.1
+ 
+run:
+ name: chmod permissions
+ command: chmod +x ./gradlew
 
 jobs:
   build:
